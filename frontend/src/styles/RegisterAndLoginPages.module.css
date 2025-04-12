@@ -10,7 +10,7 @@
 }
 
 .registerForm > label {
-    font-weight: 550;
+    font-weight: 650;
     font-size: 34px;
     color: #fbfbfe;
 }
@@ -34,4 +34,16 @@
     border-radius: 5px;
     color: white;
     box-shadow: 3.75px 5px 0 0 #040316;
+    font-weight: 650;
+}
+
+.errorMessage {
+    color: #ED4337;
+    font-weight: 650;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    text-align: center;
+    bottom: 220px;
 }

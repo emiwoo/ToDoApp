@@ -1,17 +1,17 @@
 import styles from './styles/RegisterAndLoginPages.module.css';
 
-function RegisterPage() {
+function LoginPage() {
     return(
         <>
             <form className={styles.registerForm}>
-                <label>Register</label>
+                <label>Login</label>
                 <input placeholder='Username' />
                 <input placeholder='Password' />
-                <button>Register</button>
+                <button>Login</button>
             </form>
-            <p className={styles.errorMessage}>* Username already taken</p>
+            <p className={styles.errorMessage}>* Invalid login and password</p>
         </>
     );
 }
 
-export default RegisterPage;
+export default LoginPage;
