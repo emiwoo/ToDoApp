@@ -1,0 +1,16 @@
+:root {
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-family: inter;
+}
+
+body {
+    background-color: #fbfbfe;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('./assets/Inter-VariableFont_opsz,wght.ttf');
+}

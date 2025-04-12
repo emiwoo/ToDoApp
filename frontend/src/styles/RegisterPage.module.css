@@ -1,0 +1,37 @@
+.registerForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2f27ce;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 7.5px 10px 0 0 #040316;
+}
+
+.registerForm > label {
+    font-weight: 550;
+    font-size: 34px;
+    color: #fbfbfe;
+}
+
+.registerForm > input {
+    margin-top: 15px;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    color: #040316;
+}
+
+.registerForm > button {
+    margin: 30px 0 0 0;
+    border-style: none;
+    font-family: inter;
+    padding: 5px 10px;
+    background-color: #443dff;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 3.75px 5px 0 0 #040316;
+}
