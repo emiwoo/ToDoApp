@@ -1,0 +1,16 @@
+body {
+    background-color: #2f27ce;
+}
+
+.wrapper {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.tasksHolder {
+    margin-top: 100px;
+    background-color: #fbfbfe;
+    min-height: 400px;
+    border-radius: 15px;
+    box-shadow: 7.5px 10px 0 0 #040316;
+}
